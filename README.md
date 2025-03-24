@@ -38,8 +38,6 @@ Bu görselleştirmede:
 ![BFS Algoritması](https://github.com/user-attachments/assets/fb05bfd8-dbe2-4b5c-9f94-924951c6d441)
 
 BFS algoritması görselleştirmesinde:
-- Yeşil düğüm: Başlangıç istasyonu
-- Kırmızı düğüm: Hedef istasyon
 - Sarı düğümler: Algoritmanın keşfettiği istasyonlar
 - Yeşil kalın çizgiler: Bulunan en kısa rota
 - Düğümler üzerindeki sayılar: Algoritmanın kaçıncı adımda bu istasyonu keşfettiği
@@ -48,8 +46,6 @@ BFS algoritması görselleştirmesinde:
 ![A* Algoritması](https://github.com/user-attachments/assets/302ed105-32b2-4a9d-9c53-8029fbf0d50d)
 
 A* algoritması görselleştirmesinde:
-- Yeşil düğüm: Başlangıç istasyonu
-- Kırmızı düğüm: Hedef istasyon
 - Sarı düğümler: Algoritmanın keşfettiği istasyonlar
 - Yeşil kalın çizgiler: Bulunan en optimal rota
 - Düğümler üzerindeki sayılar: Toplam seyahat süresi
