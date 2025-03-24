@@ -90,11 +90,6 @@ def en_hizli_rota_bul(self, baslangic_id: str, hedef_id: str)
 - Rota bulma algoritmalarını içerir
 - İstasyon ve bağlantı ekleme fonksiyonlarını barındırır
 
-### MetroVisualizer Sınıfı
-- Ağ yapısını görselleştirir
-- Algoritmaların çalışma adımlarını görselleştirir
-- Hat bazlı renklendirme yapar
-
 ## 🚀 Kullanım Örneği
 
 ```python
@@ -108,36 +103,18 @@ metro.istasyon_ekle("M1", "AŞTİ", "Mavi Hat")
 # Bağlantı ekleme
 metro.baglanti_ekle("K1", "M1", 5)
 
-# Görselleştirici oluşturma
-visualizer = MetroVisualizer(metro)
-
-# Temel ağı görselleştirme
-visualizer.create_base_graph()
-visualizer.dot.render('metro_agi', format='png', cleanup=True)
-
-# Algoritmaları görselleştirme
-bfs_graph = visualizer.visualize_bfs("K1", "M1")
-astar_graph = visualizer.visualize_astar("K1", "M1")
 ```
 
 ## 🔧 Kurulum
 
-1. Gerekli kütüphaneleri yükleyin:
+1. Projeyi klonlayın:
 ```bash
-pip install graphviz
-brew install graphviz  # macOS için
-# veya
-sudo apt-get install graphviz  # Linux için
+git clone [https://github.com/Beegash/MetroNetworkSimulation   ]
 ```
 
-2. Projeyi klonlayın:
+2. Projeyi çalıştırın:
 ```bash
-git clone [repo-url]
-```
-
-3. Projeyi çalıştırın:
-```bash
-python metro_simulation.py
+python IzzettinFurkanOzmen_MetroSimulation.py
 ```
 
 
