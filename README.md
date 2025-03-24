@@ -109,7 +109,7 @@ metro.baglanti_ekle("K1", "M1", 5)
 
 1. Projeyi klonlayın:
 ```bash
-git clone [https://github.com/Beegash/MetroNetworkSimulation   ]
+git clone [https://github.com/Beegash/MetroNetworkSimulation]
 ```
 
 2. Projeyi çalıştırın:
